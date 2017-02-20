@@ -1,26 +1,25 @@
 'use strict'
 import { StackNavigator } from 'react-navigation'
 // Screens
-import singleChatView from './app/tabOne/views/singleChatView'
-import navigationConfiguration from './app/tabBar/navigationConfiguration'
+import SingleChatView from './SingleChatView'
+import TabView from './TabView'
 
 
 const routeConfiguration = {
-  Home: {
-    screen: navigationConfiguration,
+  Tab: {
+    screen: TabView,
   },
-  Profile: {
+  Chat: {
     path: 'people/:name',
-    screen: singleChatView
+    screen: SingleChatView
   },
+
 }
 
 
 // going to disable the header for now
 const stackNavigatorConfiguration = {
-
-  initialRoute: 'singleChatView',
-  initialRouteName: 'Home',
+  initialRoute: 'TabView',
 }
 const ChatView = StackNavigator(routeConfiguration,stackNavigatorConfiguration)
 export default ChatView;

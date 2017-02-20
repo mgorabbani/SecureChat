@@ -1,15 +1,7 @@
-import React, { Component } from 'react';
 import {
   AppRegistry,
 } from 'react-native';
-import Index from './App'
-class SecureChat extends Component {
-  render() {
-    return (
-        <Index/>
-    );
-  }
-}
 
+import App from './App';
 
-AppRegistry.registerComponent('SecureChat', () => SecureChat);
+AppRegistry.registerComponent('SecureChat', () => App);
