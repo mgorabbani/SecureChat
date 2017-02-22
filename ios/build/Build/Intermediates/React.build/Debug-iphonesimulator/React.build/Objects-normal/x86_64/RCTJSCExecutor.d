@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Executors/RCTJSCExecutor.mm \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Executors/RCTJSCExecutor.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTJavaScriptExecutor.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/knight/project/whatsapp-clone/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBundleType.h \
+  /Users/knight/project/whatsapp-clone/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/knight/project/whatsapp-clone/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Modules/JSCSamplingProfiler.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Modules/RCTDevMenu.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Executors/RCTJSCErrorHandling.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Profiler/RCTJSCProfiler.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTUtils.h

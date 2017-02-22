@@ -15,7 +15,7 @@ const routeConfigs = {
 }
 
 const tabBarConfiguration = {
-
+title: 'WhatsApp',
   headerMode: 'modal',
 backBehavior: 'none',
 tabBarOptions:{
@@ -37,5 +37,5 @@ tabBarOptions:{
 }
 
  const TabBar = TabNavigator(routeConfigs,tabBarConfiguration)
- 
+
 export default TabBar;

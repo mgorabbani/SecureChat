@@ -115,6 +115,7 @@ export default class ChatView extends React.Component {
 
 ChatView.navigationOptions = {
   header: ({ state, navigation}) => ({
+    title:'WhatsApp',
     right:(<TopOptions page={'chat'}/>),
     style: {
       backgroundColor:'#085E55',

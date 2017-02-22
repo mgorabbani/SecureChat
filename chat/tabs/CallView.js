@@ -19,6 +19,7 @@ export default class CallView extends React.Component {
 
 CallView.navigationOptions = {
   header: ({ state, navigation}) => ({
+    title:'WhatsApp',
     right:(<TopOptions page={'call'}/>),
     style: {
       backgroundColor:'#085E55',

@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Modules/RCTDevMenu.m \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Modules/RCTDevMenu.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTKeyCommands.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/knight/project/whatsapp-clone/node_modules/react-native/React/Base/RCTWebSocketObserverProtocol.h
