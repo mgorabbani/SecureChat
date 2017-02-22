@@ -1,9 +1,10 @@
 'use strict'
 import React from 'react'
-import { View, Text,Image,TouchableOpacity,Button } from 'react-native'
+import { View, Text,Image,TouchableOpacity,Button,Picker } from 'react-native'
+import TopOptions from './TopOptions'
 
+export default class CallView extends React.Component {
 
-export default class RecentChatsScreen extends React.Component {
   render() {
     return (
       <View>
@@ -14,4 +15,14 @@ export default class RecentChatsScreen extends React.Component {
       </View>
     )
   }
+}
+
+CallView.navigationOptions = {
+  header: ({ state, navigation}) => ({
+    right:(<TopOptions page={'call'}/>),
+    style: {
+      backgroundColor:'#085E55',
+    },
+    tintColor: '#fff'
+  }),
 }

@@ -7,14 +7,17 @@ import { View,
   TouchableOpacity
 } from 'react-native'
 
+import TopOptions from './TopOptions'
 
 import {StackNavigator} from 'react-navigation'
-export default class TabOneNavigation extends React.Component {
+export default class ChatView extends React.Component {
+
   constructor(props){
     super(props)
      const ds = new ListView.DataSource({
        rowHasChanged: (r1,r2) => r1 !=r2
      })
+
      const navigation =  props.navigation;
      this.state = {
        dataSource: ds.cloneWithRows([
@@ -86,10 +89,7 @@ export default class TabOneNavigation extends React.Component {
   }
 
   renderRow(dr){
-    console.log(this.props);
     return (
-
-
 
       <TouchableOpacity onPress={()=>this.props.navigation.navigate('Chat',{dr})}>
         <View style={{ alignItems:'center', padding:10, flexDirection:'row', borderBottomWidth:1, borderColor:'#f7f7f7' }}>
@@ -110,4 +110,15 @@ export default class TabOneNavigation extends React.Component {
       </TouchableOpacity>
     )
   }
+}
+
+
+ChatView.navigationOptions = {
+  header: ({ state, navigation}) => ({
+    right:(<TopOptions page={'chat'}/>),
+    style: {
+      backgroundColor:'#085E55',
+    },
+    tintColor: '#fff'
+  }),
 }

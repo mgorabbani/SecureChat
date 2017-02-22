@@ -12,8 +12,7 @@ const routeConfiguration = {
   Chat: {
     path: 'people/:name',
     screen: SingleChatView
-  },
-
+  }
 }
 
 
